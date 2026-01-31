@@ -1,7 +1,7 @@
 import Input from '../../Components/Input'
 import './Price.css'
 
-const Price = () => {
+const Price = ({handleChange}) => {
   return (
     <div>
       <h2 className="sidebar-title price-title">Price</h2>

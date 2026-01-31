@@ -1,10 +1,10 @@
 import Input from '../../Components/Input'
-import './Gender.css'
+import './Colors.css'
 
-const Gender = () => {
+const Colors = () => {
   return (
     <div>
-      <h2 className="sidebar-title gender-title">Gender</h2>
+      <h2 className="sidebar-title colors-title">Colors</h2>
 
       <div>
         <Input />
@@ -17,4 +17,4 @@ const Gender = () => {
   )
 }
 
-export default Gender
+export default Colors

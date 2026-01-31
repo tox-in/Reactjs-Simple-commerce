@@ -1,5 +1,5 @@
 import './Sidebar.css';
-import Gender from './Gender/Gender';
+import Colors from './Colors/Colors';
 import Category from './Category/Category';
 import Price from './Price/Price';
 
@@ -12,9 +12,9 @@ function Sidebar({handleChange}) {
         <div className="logo-container">
             <h1>🛒</h1>
         </div>
-        <Gender handleChange={handleChange} />
         <Category handleChange={handleChange} />
         <Price handleChange={handleChange} />
+        <Colors handleChange={handleChange} />
       </section>
     </>
   )
