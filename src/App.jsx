@@ -34,6 +34,8 @@ function App() {
 
   function filteredData(products, selected, query) {
     let filteredProducts = products;
+    console.log(products);
+    
 
     // Filtering Input Items
     if (query) {

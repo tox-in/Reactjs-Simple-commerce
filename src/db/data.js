@@ -1,5 +1,3 @@
-import { AiFillStar } from "react-icons/ai";
-
 const data = [
   {
     img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
@@ -15,7 +13,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
     title: "Nike Air Vapormax Plus",
-    rating: 5,
+    rating: 4.3,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -38,7 +36,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
     title: "Nike Running Shoe",
-    rating: 5,
+    rating: 4,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -49,7 +47,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
     title: "Flat Slip On Pumps",
-    rating: 5,
+    rating: 3.9,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -60,7 +58,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
     title: "Knit Ballet Flat",
-    rating: 5,
+    rating: 3.5,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "50",
@@ -119,7 +117,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71E75yRwCDL._AC_UY575_.jpg",
     title: "Pacer Future Sneaker",
-    rating: 5,
+    rating: 4,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "150",
@@ -152,7 +150,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
     title: "Pacer Future Doubleknit",
-    rating: 5,
+    rating: 2.9,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "150",
@@ -234,7 +232,7 @@ const data = [
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
-    company: "puma",
+    company: "Puma",
     color: "black",
     category: "heels",
   },
@@ -250,18 +248,6 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-    title: "Nike Air Vapormax Plus",
-    rating: 5,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Nike",
-    color: "red",
-    category: "sneakers",
-  },
-
-  {
     img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
     title: "Low Mid Block Heels",
     rating: 5,
@@ -274,12 +260,12 @@ const data = [
   },
   {
     img: "https://m.media-amazon.com/images/I/616sA5XUKtL._AC_UY675_.jpg",
-    title: "Chunky High Heel",
+    title: "Chunky High Heel B",
     rating: 5,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "50",
-    company: "Adidas",
+    company: "Vans",
     color: "black",
     category: "heels",
   },
